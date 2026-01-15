@@ -1,0 +1,15 @@
+ul.a {
+    list-style-type: disc;
+}
+
+ul.b {
+    list-style-type: lower-greek;
+}
+
+ol.c {
+    list-style-type: decimal-leading-zero;
+}
+
+ol.d {
+    list-style-image: url('../imagenes/bullet.svg');
+}
