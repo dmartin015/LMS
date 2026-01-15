@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabla Comparativa</title>
+    <meta name="author" content="Oculto por CSS" />
+    <meta name="keywords" content="ipod, apple, bueno, bonito, barato" />
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        <strong>TABLA INTERNA (TI)</strong>
+      </caption>
+      <tr>
+        <td colspan="4">
+          Soy una celda de la TI que surge de combinar 4 celdas
+        </td>
+      </tr>
+      <tr>
+        <td>Yo soy una celda normal de la TI</td>
+        <td>Yo soy una celda normal de la TI</td>
+        <td>Yo soy una celda normal de la TI</td>
+        <td>Yo soy una celda normal de la TI</td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <strong>TABLA EXTERNA (TE)</strong>
+      </caption>
+      <tr>
+        <td colspan="3">
+          Soy una celda de la TE que surge de combinar 3 celdas
+        </td>
+        <td>Yo soy una celda normal de la TE</td>
+      </tr>
+      <tr>
+        <td>Yo soy una celda normal de la TE</td>
+        <td>Yo soy una celda normal de la TE</td>
+        <td>Yo soy una celda normal de la TE</td>
+        <td>Yo soy una celda normal de la TE</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <caption>
+        <strong>TABLA EXTERNA (TE)</strong>
+      </caption>
+      <tr>
+        <td rowspan="2">
+          Soy una celda de la TE que surge de combinar 3 celdas
+        </td>
+        <td>Yo soy una celda normal de la TE</td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1">
+            <caption>
+              <strong>TABLA INTERNA (TI)</strong>
+            </caption>
+            <tr>
+              <td colspan="4">
+                Soy una celda de la TI que surge de combinar 4 celdas
+              </td>
+            </tr>
+            <tr>
+              <td>Yo soy una celda normal de la TI</td>
+              <td>Yo soy una celda normal de la TI</td>
+              <td>Yo soy una celda normal de la TI</td>
+              <td>Yo soy una celda normal de la TI</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

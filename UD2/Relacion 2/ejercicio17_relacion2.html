@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario estructurado</title>
+  </head>
+  <body>
+    <h1>Formulario estructurado</h1>
+
+    <form id="form2" name="form2" action="datos.php" method="get">
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <label for="nombre">Nombre</label><br />
+        <input type="text" id="nombre" name="nombre" /><br />
+
+        <label for="apellidos">Apellidos</label><br />
+        <input type="text" id="apellidos" name="apellidos" /><br />
+
+        <label for="dni">DNI</label><br />
+        <input type="text" id="dni" name="dni" maxlength="9" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos de conexión</legend>
+
+        <label for="nombreusuario">Nombre de usuario</label><br />
+        <input type="text" id="nombreusuario" name="nombreusuario" /><br />
+
+        <label for="contrasena">Contraseña</label><br />
+        <input type="password" id="contrasena" name="contrasena" /><br />
+
+        <label for="repitecontrasena">Repite la contraseña</label><br />
+        <input
+          type="password"
+          id="repitecontrasena"
+          name="repitecontrasena"
+        /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
