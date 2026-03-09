@@ -1,0 +1,22 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    color: rgb(17, 0, 255);
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+    border-color: cyan;
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+
+#betis {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#playa {
+    margin-top: 150px;
+}
