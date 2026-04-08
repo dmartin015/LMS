@@ -1,0 +1,17 @@
+.relativo {
+    background-color: rgb(220, 210, 255);
+    border: 2px solid rgb(180, 100, 200);
+    margin: 20px;
+    position: relative;
+    height: 200px;
+    width: 400px;
+}
+
+.centrado {
+    background-color: orange;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    height: 80px;
+    width: 80px;
+}

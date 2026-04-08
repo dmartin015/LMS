@@ -1,0 +1,30 @@
+.relativo {
+    background-color: lightgray;
+    border: 2px solid gray;
+    margin: 20px;
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+.roja {
+    background-color: red;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 15px;
+    width: 120px;
+    height: 80px;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 60px; 
+    left: 80px;
+    width: 120px;
+    height: 80px;
+}

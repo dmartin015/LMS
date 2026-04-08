@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+
+.navegacion {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
