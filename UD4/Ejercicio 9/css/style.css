@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playwrite IE", cursive;
     margin: 20px;
+    background-color: antiquewhite;
+    text-align: center;
 }
 
 header {
-    background-color: #eee;
+    background-color: wheat;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(243, 200, 122);
 }
 
 ul {
@@ -26,13 +30,53 @@ a {
 }
 
 a:hover {
-    color: darkblue;
+    color: darkred;
 }
 
 main {
     margin-top: 20px;
+    text-align: center;
+}
+
+.contenedor-cuento {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 10%;
+    text-align: left;
+}
+
+.texto-cuento {
+    flex: 1;
 }
 
 h1 {
     font-size: 24px;
+}
+
+p {
+    position: relative;
+}
+
+.carrusel {
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.cuentos {
+    border-radius: 15px;
+}
+
+.primero::first-letter {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: tan;
+    border: 1px solid rgb(243, 200, 122);
+    padding: 10px 0px;
+    margin-top: 40px;
 }
