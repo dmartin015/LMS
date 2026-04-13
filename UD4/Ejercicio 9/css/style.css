@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}

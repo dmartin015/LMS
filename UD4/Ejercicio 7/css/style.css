@@ -1,0 +1,9 @@
+pre::first-letter {
+    float: left;
+    text-transform: capitalize;
+    font-size: 5em;
+    font-weight: bold;
+}
+pre {
+    margin-bottom: 20px;
+}

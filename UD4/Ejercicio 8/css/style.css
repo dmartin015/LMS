@@ -1,0 +1,29 @@
+.cabecera { 
+    background: #ccc; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.cuerpo { 
+    display: flex; 
+}
+
+.columna-1 { 
+    flex: 1; 
+    background: #eee; 
+    padding: 15px; 
+}
+
+.columna-2 { 
+    flex: 1; 
+    background: #ddd; 
+    padding: 15px; 
+}
+
+.pie { 
+    background: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+    clear: both; 
+}
