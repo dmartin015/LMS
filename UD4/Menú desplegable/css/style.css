@@ -1,0 +1,41 @@
+.menu {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu li:hover {
+  background-color: aliceblue;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: floralwhite;
+  top: 100%;
+  left: 0%;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu li:hover {
+  background-color: #f0f0f0; 
+}

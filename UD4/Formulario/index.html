@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form  action="mailto:dmargar586@g.educaand.es" name='Contacto' method="post" enctype="text/plain" target="_blank">
+        <fieldset>
+        <legend>Contacto:</legend>
+        <label for="nombre">Nombre</label> <br>
+        <input type="text" id="nombre" placeholder="Diego" autofocus maxlength="15"> <br>
+        <label for="apellidos">Apellidos</label> <br>
+        <input type="text" id="apellidos" placeholder="Martín García" maxlength="30"> <br>
+        <p>Género:</p>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="genero" value="Hombre"> <br>
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" name="genero" value="Mujer"> <br>
+        <label for="telefono">Número de teléfono</label> <br>
+        <input type="tel" id="telefono" placeholder="987654321" required> <br>
+        <label for="correo">Correo electrónico:</label> <br>
+        <input type="email" id="correo" placeholder="dmargar586@g.educaand.es" required> <br>
+        <label for="contrasena">Contraseña</label> <br>
+        <input type="password" id="contrasena" placeholder="PepitoGrillo1234" required> <br>
+        <label for="depart">Departamento:</label>
+        <select id="depart" name="departamentos" size="3">
+        <option value="tic">TIC</option>
+        <option value="maths">Matématicas</option>
+        <option value="physics">Física</option>
+        <option value="art">Artes</option>
+        </select>
+        <textarea name="mensaje" rows="10" cols="30" placeholder="Mensaje"></textarea> <br>
+        <input type="submit">
+        <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
