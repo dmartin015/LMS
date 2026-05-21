@@ -1,0 +1,9 @@
+body {
+  background-color: #ccc;
+  font-family: Arial, sans-serif;
+}
+
+input,
+textarea {
+  background-color: #f6f6f6;
+}

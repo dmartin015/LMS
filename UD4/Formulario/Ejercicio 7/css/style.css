@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.card {
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.rating label {
+  font-size: 22px;
+  margin-right: 4px;
+}
