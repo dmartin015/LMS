@@ -3,10 +3,12 @@ body {
   background-color: #fff;
 }
 
-.card {
+.formulario {
   max-width: 420px;
   margin: 20px auto;
   padding: 20px;
+  border-radius: 25px;
+  background-color: antiquewhite;
 }
 
 input[type="text"],
@@ -15,7 +17,7 @@ textarea {
   background-color: #f6f6f6;
 }
 
-.rating label {
+.puntuacion label {
   font-size: 22px;
   margin-right: 4px;
 }
